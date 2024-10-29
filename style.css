@@ -1,0 +1,1359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1280px;
+    
+}
+#nav-one {
+    background-color:rgba(0, 0, 0, .04);
+    padding: 7px;
+   
+}
+.header .nav-top .navone-ul{
+    display: flex;  
+    
+}
+.header .nav-top  li{
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+
+    
+}
+.header .nav-top  li a{
+    text-decoration: none;
+    color: black;
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    
+    
+}
+.support{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    display: none;
+}
+.support .support-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.support .support-content h4{
+    font-size: 40px;
+    font-weight: 600px;
+    color: #1d1d1f;
+    padding-bottom: 1%;
+}
+.support .support-content .content-help{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.support .support-content .content-help span{
+    padding: 25px 10px;
+    background-color: #dbdbe3;
+    border-radius: 12px;
+}
+.support .support-content .content-help span h5{
+    color: #0071e3;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.support .support-content h3 {
+    padding-top: 2%;
+}
+.support .support-content h3 a{
+    color: #06c;
+}
+#nav-two{
+    padding: 5px 0px;
+    position: relative;
+}
+#nav-two .navtwo-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+.navtwo-ul li{
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+
+}
+
+@keyframes slideIn{
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideOut{
+    from{
+        opacity: 1;
+        transform: translateY(0);
+    }to{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+.hover-searchbar.show {
+    display: flex;
+    animation: slideIn 0.5s forwards; 
+    display: flex;
+
+}
+.hover-searchbar.hide {
+    animation: slideOut 0.5s forwards; 
+    opacity: 0;
+    display: none;
+}
+ .hover-searchbar {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 50vh;
+    background-color: white; 
+    animation: none;
+    transition: opacity 0.5s ease-out;
+    
+}
+
+.hover-searchbar .hoversub-section{
+    display: flex;
+    padding-left: 5%;
+}
+.hover-searchbar .search-content{
+    display: flex;
+    margin-top: 3%;
+    padding-left: 14%;
+    
+}
+  .close-icon{
+    width: 3%;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.hover-searchbar .search-icon img{
+    width: 100%;
+}
+
+.hover-searchbar #input {
+    height: 30px;
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons,
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    color: var(--r-globalnav-search-input-value-color);
+    line-height: 1;
+}
+.hover-searchbar .searchbar-position{
+    padding-left: 12%;
+    padding-top: 3%;
+}
+.search-barlink{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    gap: 1%;
+}
+.searchbar-position .quick-link{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: grey;
+    padding-bottom: 1%;
+}
+.search-barlink a{
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--r-globalnav-search-input-value-color);
+}
+.search-barlink img{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+.line{
+    border: 1px solid black;
+}
+.hover-searchbar .input-items{
+    display: none;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+    background-color:rgba(248, 242, 242, 0.97);
+    border-radius: 12px;
+    gap: 20px;
+    padding: 10px 0px;
+    align-items: center;
+
+    
+}
+.hover-searchbar .input-items .input-items-airpod h5{
+    color: #0071e3;
+    
+}
+
+.hover-searchbar .input-items .input-items-airpod img{
+    display: block;
+    width: 100%;
+}
+
+
+
+.wrapper .navtwo-ul li a{
+    text-decoration: none; 
+    color: black;
+}
+#nav-two .wrapper  .nav-img img{
+    width: 35px;
+    padding: top 0;px ;
+}
+#nav-three{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    
+}
+#nav-three .wrapper .empty{
+    font-size: 22px;
+    padding: 40px 0px 20px 40px;
+    color: black;
+    font-weight: 400px;
+}
+#nav-three .navthree-ul {
+    display: flex;
+    padding-left: 40px;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    margin: 10px 0px;
+    background-color: white;
+}
+.navthree-ul span{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: grey;
+    padding-bottom: 1%;
+}
+.navthree-ul a{
+    color: #0071e3;
+    font-size: 13px;
+}
+#nav-three .navthree-ul .shop-button{
+    margin-top: 1%;
+    padding: 5px 10px ;
+    background-color:grey;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.nav-four{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .04);
+}
+.nav-four .navfour-text{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+.navfour-text .shop-now{
+    text-decoration: none;
+    color: rgb(0, 167, 189);
+}
+.swiper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .swiper-button-prev img{
+    width: 100%;
+    display: block;
+  }
+  .swiper-button-next img{
+    width: 100%;
+    display: block;
+  }
+  .swiper-button-prev {
+    background-color: #ffffff32;
+    padding: 6px 15px;
+    filter: invert(1) brightness(0.3) contrast(2);
+    border-radius: 50%;
+    font-weight: 900;
+    
+  }
+  .swiper-button-next {
+    background-color: #ffffff32;
+    padding: 6px 15px;
+    filter: invert(1) brightness(0.3) contrast(2);
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+
+  .swiper-slide {
+    font-size: 18px;
+    display: flex;
+  }
+#education-store {
+    background-color: rgba(0, 0, 0, .04);
+    margin-top: 2px;
+    justify-content:center;
+}
+#education-store .header-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    width: 100%;
+}
+#education-store .header-img img{
+    width:35%;
+}
+.storehelp-right .help-icon img{
+    width: 50%;
+}
+.storehelp-right .visitapple-icon{
+    padding-right: 10px;
+
+}
+
+.educationstore-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.educationstore-text .store-text .edu-store{
+    color: #08827c;
+}
+.educationstore-text .store-text {
+    font-size: 48px;
+    width: 50%;
+    color: #6e6e73;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 1.0834933333;
+    font-family: SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.educationstore-text .store-text {
+    display: flex;
+}
+.educationstore-text .store-text .edu-subheader{
+    display: inline;
+    font-family: SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 1.0834933333;
+}
+
+.educationstore-text .store-help .helptext{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.educationstore-text .store-help .applevisit-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.educationstore-text .store-help a{
+    color: #06c;
+    text-decoration: none;
+}
+.store-right{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.storehelp-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.education-tools{
+    display: flex;
+    justify-items: center;
+    
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+.education-tools .tools {
+    display: block;
+    justify-items: center;
+    text-align: center;  
+    width: 185px;
+}
+.education-tools .tools img{
+    width: 100%;
+}
+.education-tools .tools h6{
+    color: #1d1d1f;
+    font-size: 14px;
+    font-family:  SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+#advanced-studies{
+    background-color:rgba(0, 0, 0, .04) ;
+    padding-bottom: 80px;
+    /* padding:40px 0px 40px 100px;     */
+}
+#advanced-studies .advanced-heading{
+    display: flex;
+}
+.advanced-heading .sentence1-studies{
+    font-family: SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+}
+.advanced-heading .sentence2-studies {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6e6e73;
+    letter-spacing: .007em;
+    font-family: SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.limitedoffer-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+ overflow: hidden;
+}
+.limitedoffer-card  .card1-img  {
+    background-image: url("img1/retro-black-camera-arrangement.jpg");
+    object-fit: contain; 
+    background-size:cover;
+    background-position: left;
+    width: 55vh;
+    height: 49vh;
+    border-radius:30px
+    }
+
+    .card1-butto {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #007bff;
+        border-radius: 5px;
+        transition: background-color 0.1s ease;
+      }
+      
+      .card1-butto:hover {
+        background-color: #69e998;
+      }
+
+      .card1-img {
+        position: relative; /* Make the container relative to position child elements */
+        padding: 20px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        background-color: #f9f9f9;
+        max-width: 300px;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+   
+.limitedoffer-card .offercard-2 {
+    background-image: url("img1/car3.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+ .card-top{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    
+    justify-content: space-between;
+}
+.card-top img{
+    width: 40px;
+
+}
+
+
+.card1-offertext{
+    margin: 30px 0px 20px 0px;
+    color: #b64400;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3333733333;
+    font-family: SF Pro Text, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.card1-subhead{
+    margin: 0px 10px 10px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.1428571429;
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.from-price{
+    color: #1d1d1f;
+    font-family: SF Pro Text, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.2353641176;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.limitedoffer-card .offercard-3 {
+    background-image: url("img1/coat3.jpeg");
+    background-size: cover;
+    background-position: center;
+   
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.limitedoffer-card .offercard-4 {
+    background-image: url("img1/cake5.jpeg");
+    background-size: cover;
+    background-position: center;
+ 
+    height: 55vh;
+    border-radius: 20px;transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.limitedoffer-card .offercard-5 {
+    background-image: url("img1/invite2.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.limitedoffer-card .offercard-6 {
+    background-image: url("img1/pre.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+
+.limitedoffer-card .offercard-7 {
+    background-image: url("img1/honeymoon.jpeg");
+    background-size: cover;
+    background-position: center;
+   
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.swiper-container{
+    width: 1144px;
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        color: white;
+        background-color: black;
+        &:after{
+            color: white;
+        }
+    }  
+}
+#advertisement{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.wrapper{
+    width: 82%; 
+    max-width: 1280px; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+#advertisement .wrapper .advertisement-content{
+    
+display: flex;
+}
+#advertisement .advertisement-content .advertisement-img1 img{
+    display: block;
+    width: 100%;
+}
+#advertisement .advertisement-content .advertisement-img1{
+    background-image: url('imagenew/2.jpg');
+    height:639.72px ;
+    width:100% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.wrapper .advertisement-img1 .advertisement-card-subhead {
+    font-size: 34px;
+    font-family:sans-serif;
+    font-weight:800 ;
+    color:#FFFFFF ;
+    line-height: 50px;
+    letter-spacing: 0.21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 58px;
+}
+.advertisement-img1  .adv-paragraph{
+    font-size:20px ;
+    font-weight:300 ;
+    font-family:'Gill Sans', 'Gill Sans MT',
+     Calibri, 'Trebuchet MS', sans-serif ;
+    color:#FFFFFF ;
+    line-height: 24px;
+    letter-spacing: 1px;
+    width: 490px;
+    padding-top: 30px;
+    padding-left: 74px;
+}
+.advertisement-img1  .adv-button {
+    padding: 0px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    padding: 12px 44px 12px 44px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #3C4242;
+    border: none;
+    margin-left: 74px;
+}
+#advertisement .advertisement-content .advertisement-img2 img{
+    display: block;
+    width: 100%;
+}
+
+#education-offer{
+    background-color: rgba(0, 0, 0, .04);
+    padding:40px 0px 40px 100px
+}
+.educationoffer-text{
+    display: flex;
+}
+.educationoffer-text .sentence1-offer{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+}
+.educationoffer-text .sentence2-offer {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6e6e73;
+    letter-spacing: .007em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.educationoffer-text{
+    padding-bottom: 40px;
+}
+.swiper-slide .exclusive-card1 {
+    background-image: url("img1/jewels.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.exclusive-subhead{
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.1428571429;
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.swiper-slide .exclusive-card2 {
+    background-image: url("img1/ear\ ring.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.swiper-slide .exclusive-card3 {
+    background-image: url("img1/ring.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 55vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+
+
+.swiper-slide .exclusive-card4 {
+    background-image: url("img1/bracelet.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 55vh;
+    border-radius: 30px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+#accessories{
+    background-color: rgba(0, 0, 0, .04);
+    padding:40px 0px 40px 100px
+    
+}
+
+
+.exclusive-subhead{
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.1428571429;
+    color: #66826b;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.accessories-heading{
+    display: flex;
+    padding-bottom: 30px;
+}
+ .sentence1-accessories{
+    font-family: SF Pro Display, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+}
+.sentence2-accessories {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6e6e73;
+    letter-spacing: .007em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.accessories-card1{
+    background-image: url("imagenew/1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.accessories-card2{
+    background-image: url("imagenew/2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.white-card{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: white;
+
+}
+.white-card .svg1img{
+    padding: 5% 85% 0%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40px;
+}
+.white-card .pencil-pro {
+    width: 60%;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    padding: 6.5% 20%;
+}
+.white-card  img{
+    width: 0%;
+}
+
+.accessories-subhead{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 1.1428571429;
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.card1-text {
+    padding-left: 12px;
+    color: #b64400;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3333733333;
+    font-family: SF Pro Text, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.accessories-price{
+    color: #1d1d1f;
+    font-family: SF Pro Text, SF Pro Icons,
+     Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.2353641176;
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    padding: 10px 20px 10px ;
+}
+.accessories-card3{
+    background-size: cover;
+    background-image: url("imagenew/3.jpg");
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    background-position: center;
+    width: 100%;
+    border-radius: 30px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.accessories-card4{
+    background-image: url("imagenew/4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+
+.devices-subhead{
+    display: flex;
+    padding: 20px 20px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.1428571429;
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.accessories-card5{
+    background-image: url("imagenew/5.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.accessories-card6{ background-image: url("imagenew/10.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.accessories-card7{
+    background-image: url("imagenew/tour.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.accessories-card8{
+    background-image: url("imagenew/9.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.accessories-card9{
+    background-image: url("imagenew/couple\ tshirt.png");
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 60vh;
+    border-radius: 20px;
+    transition: transform ease 0.2s;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.red-text {
+    padding: 20px;
+    color: #b64400;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3333733333;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.white-card .ipad-pro {
+    width: 60%;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    padding: 0 20%;
+}
+.colors{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.colors .white-color{
+    width: 4%;
+}
+.colors .brown-color{
+    width: 4%;
+}
+.accessories-mrp{
+    color: #1d1d1f;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.2353641176;
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    padding: 5px 20px 10px ;
+}
+.airpod3rd-subhead{
+    display: flex;
+    padding: 20px 20px 7px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.1428571429;
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+#apple-store{
+    background-color: rgba(0, 0, 0, .04);
+    padding:40px 0px 40px 100px
+}
+.applestore-text{
+    display: flex;
+    padding-bottom:40px ;
+}
+/* Common styles for all .bg-card elements */
+.bg-card {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    width: 350px;
+    background-size: cover; /* Ensures the background image covers the entire card */
+    background-position: center; /* Centers the background image */
+    border-radius: 20px;
+    gap: 20px;
+    transition: transform ease 0.2s;
+}
+
+.bg-card:hover {
+    transform: scale(1.03);
+}
+.swiper-slide {
+    margin: 2px; /* Adjust this value to set the desired gap between each box */
+}
+
+
+Styles for different IDs with unique background images 
+#customize-mac-card {
+    background-image: url('newpic/5.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#engraving-card {
+    background-image: url('newpic/2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#delivery-card {
+    background-image: url('newpic/9.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#shop-specialist-card {
+    background-image: url('newpic/4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+
+#exchange-smartphone-card {
+    background-image: url('newpic/12.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+Optional: If you want to add an image for the last slide 
+#tradein-card {
+    background-image: url('newpic/6.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+
+#tradein-card {
+    background-image: url('newpic/6.jpg');
+}
+
+.bg-icon{
+    padding: 40px 150px 5px 20px;
+    width: 13%;
+}
+.bg-paragraph{
+    display: flex;
+    padding: 0 0 0 20px;
+}
+.bg-black{
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 5px;
+    color: #1d1d1f;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, 
+    Helvetica, Arial, sans-serif;
+}
+.bg-highlight{
+    color: #ffffff;
+    fill: #68cc45;
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.bg-imojie{
+    color: #ac39ff;
+    fill: #ac39ff;
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.greenblack-text{
+    padding-left: 20px;
+    width: 77%;
+}
+.highlight-blue{
+    color: #edeff0;
+    fill:#0071e3;
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.bottom-spotlight{
+    background-color: rgba(0, 0, 0, .04);
+}
+.blueblack-text{
+    padding-left: 20px;
+    width: 70%;
+}
+.blueblack-text1{
+    padding-left: 20px;
+    width: 80%;
+}
+.bottom-spotlight{ 
+    padding:40px 0px 40px 100px
+}
+.spotlight-bottom{
+    padding: 40px 0px 20px 0px;
+}
+.spotlight-bottom h4{
+    font-size: 30px;
+    font-family: SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.spotbottom-button{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.spotbottom-button .order-bn{
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgba(117, 112, 112, 0.04);;
+}
+#footer{
+    padding-top: 50px;
+    
+    
+}
+#footer .ftr-1paragraph{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    color: #0000008f;
+}
+#footer .ftr-1paragraph a{
+    color: #000000b8;
+
+}
+.line{
+   margin: 20px 0;
+   color: #0000008f;
+}
+
+
+.mid-footer .mid img{
+    width: 6%;
+    color: #0000008f;
+}
+.mid-footer .mid{
+    display: flex;
+    gap: 10px;
+}
+.mid-footer .mid a{
+   text-decoration: none;
+   color:#0000008f;
+}
+.mid-footer .mid span{
+    color: #0000008f;
+    font-size: 15px;
+}
+.footermid-section{
+    display: flex;
+    justify-content: space-between;
+    font-family:SF Pro Display, SF Pro Icons, 
+    Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+.footermid-section .list a{
+    text-decoration: none;
+    color: #0000008f;
+}
+.footermid-section .list h5{
+    padding: 15px 0;
+    color:black ;
+    font-size: 12px;
+    font-weight: 500;
+}
+.footermid-section .list h6{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    padding-bottom: 10px;
+    
+} 
+.mid-footer h3{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    padding-bottom: 10px;
+    color: #0000008f;
+}
+.mid-footer h3 a{
+    color: #06c;
+}
+.footer-bottom{
+    display: flex;
+    gap: 40px;
+}
+.footer-bottom ul{
+    display: flex;
+    
+}
+
+.mid-bottom-text h3{
+    font-size: 13px;
+    color: #0000008f;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+}
+
+.footer-bottom ul li{
+    list-style: none;
+    color: #0000008f;
+    padding-left: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom ul li a{
+    text-decoration: none;
+    color: #0000008f;
+}
+.footer-link h4{
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    color: #0000008f;
+}
+@media (max-width: 760px) {
+    .swiper-button-next {
+      right: 20px;
+      transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+      left: 20px;
+      transform: rotate(90deg);
+    }
+  }

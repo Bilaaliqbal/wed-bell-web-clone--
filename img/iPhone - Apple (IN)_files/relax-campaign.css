@@ -1,0 +1,397 @@
+.ribbon.sticky{
+	position: sticky;
+    top: 0;
+    z-index: 123333;
+  
+}
+.sosumi-link-follows[data-pricing-loaded], .sosumi-link-follows[data-pricing-loaded]~.footnote, .sosumi-link-follows[data-pricing-loaded]~.product-addition {
+ display:inline-block;
+}
+.banner-card .banner-card-button.durability-tile-button {
+	--sk-button-color: #fff;
+	--sk-button-color-hover: var(--sk-button-color);
+	--sk-button-color-active: var(--sk-button-color-hover);
+	--sk-button-disabled-opacity: var(--sk-link-disabled-opacity, 0.42);
+	--sk-button-border-color: transparent;
+	--sk-button-border-radius: 980px;
+	--sk-button-margin-horizontal: 14px;
+	--sk-button-margin-vertical: 14px;
+	--sk-button-min-width-basis: 60px;
+	--sk-button-padding-horizontal: 16px;
+	--sk-button-padding-vertical: 11px;
+	--sk-button-border-width: 1px;
+	--sk-button-box-sizing: content-box;
+	--sk-button-width: auto;
+	--sk-button-display: inline-block;
+	font-size: 17px;
+	line-height: 1.2857742857;
+	font-weight: 400;
+	letter-spacing: -0.016em;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+		"Arial", sans-serif;
+	background: var(--sk-button-background);
+	color: var(--sk-button-color);
+	border-color: var(--sk-button-border-color);
+	padding-block: calc(
+		var(--sk-button-padding-vertical) - var(--sk-button-border-width)
+	);
+	padding-inline: calc(
+		var(--sk-button-padding-horizontal) - var(--sk-button-border-width)
+	);
+	border-radius: var(--sk-button-border-radius);
+	border-style: solid;
+	border-width: var(--sk-button-border-width);
+	width: var(--sk-button-width);
+	min-width: calc(
+		var(--sk-button-min-width-basis) - var(--sk-button-padding-horizontal) *
+			2
+	);
+	cursor: pointer;
+	display: var(--sk-button-display);
+	box-sizing: var(--sk-button-box-sizing);
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	--sk-button-background: rgb(0, 113, 227);
+	--sk-button-background-hover: #0077ed;
+	--sk-button-background-active: #006edb;
+	transition: all 0.1s ease-in;
+}
+
+.banner-card .banner-card-button.durability-tile-button {
+	--sk-button-background: #f5f5f7;
+	--sk-button-background-hover: rgb(255, 255, 255);
+	--sk-button-background-active: #ededf2;
+	--sk-button-color: rgb(245, 245, 247);
+	--sk-button-color-hover: rgb(0, 0, 0);
+	--sk-button-border-color: rgb(245, 245, 247);
+	color: #000;
+}
+
+.banner-card .banner-card-button.durability-tile-button:hover {
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+	border-color: rgba(0, 0, 0, 0);
+}
+.banner-card .banner-card-button.durability-tile-button.durability-tile-learnmore-button {
+	--sk-button-disabled-opacity: var(--sk-link-disabled-opacity, 0.36);
+	--sk-button-background: rgb(0, 113, 227);
+	border-color: rgb(0, 113, 227);
+	--sk-button-background-hover: #0077ed;
+	--sk-button-background-active: #006edb;
+	color: #fff;
+}
+.banner-card .banner-card-button.durability-tile-button.durability-tile-learnmore-button:hover {
+	background: var(--sk-button-background-hover, var(--sk-button-background));
+	color: var(--sk-button-color-hover, var(--sk-button-color));
+	text-decoration: none;
+	border-color: rgba(0, 0, 0, 0);
+	color: #fff;
+}
+.banner-card .banner-card-button.durability-tile-button:focus-visible {
+	outline: 2px solid var(--sk-focus-color, #0071e3);
+	outline-offset: var(--sk-focus-offset-container, 3px);
+}
+
+.banner-card .banner-card-button.durability-tile-button:active {
+	background: var(--sk-button-background-active, var(--sk-button-background));
+	color: var(--sk-button-color-active, var(--sk-button-color));
+	outline: none;
+}
+
+.banner-card .banner-card-button.durability-tile-button:disabled, .banner-card .banner-card-button.durability-tile-button.disabled {
+	pointer-events: none;
+	opacity: var(--sk-button-disabled-opacity);
+}
+
+html.no-touch .durability-campaign-tile .feature-card:hover {
+	transform: scale(1);
+}
+
+.durability-campaign-tile .gallery.gallery-align-start .item-container {
+	padding: 0;
+	margin-top: 0;
+}
+
+.durability-campaign-tile .card .card-modifier.fixed-width {
+	min-height: 24px;
+	width: auto;
+	min-width: 100px;
+	padding: 0px;
+	background: transparent;
+}
+
+.relax-campaign-container .gallery.gallery-align-start .scroll-container {
+	padding: 0;
+}
+
+.relax-campaign-container .banner-card-1-up.banner-card-image-type-background .banner-card-image img {
+	object-fit: cover;
+	object-position: center center;
+}
+
+.durability-campaign-tile .paddlenav {
+	opacity: 0;
+}
+
+.align-left {
+	text-align: left;
+	/*						  margin-top:130px !important;*/
+}
+
+@media only screen and (max-width: 1068px) {
+	.align-left {
+		text-align: center;
+		margin: 205px 0 0 0;
+		padding: 0 0 0 0;
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.align-left {
+		margin: 205px 0 0 0;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.align-left {
+		margin: 184px 0 0 0;
+		padding: 0;
+	}
+
+	.relax-campaign-container .banner-card-ctas {
+		margin-top: 0;
+	}
+	.banner-card .banner-card-button.durability-tile-button {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.align-left {
+		margin: 184px 0 0 0;
+		padding: 0;
+	}
+}
+
+.durability-campaign-tile .gallery.gallery-align-start .item-container {
+}
+
+.relax-campaign-container .banner-card.has-ctas .banner-card-row {
+	padding: 0;
+	flex-direction: column;
+}
+
+.relax-campaign-container .banner-card.banner-card-text-row-placement-top .banner-card-copy-column {
+	position: absolute;
+	margin: 0px;
+	top: calc(100% - 260px);
+	width: auto;
+}
+
+@media only screen and (max-width: 1068px) {
+	.relax-campaign-container .banner-card.banner-card-text-row-placement-top .banner-card-copy-column {
+		min-width: 530px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.relax-campaign-container .banner-card.banner-card-text-row-placement-top .banner-card-copy-column {
+		top: auto;
+		min-width: 100%;
+		box-sizing: border-box;
+		padding-left: 10px;
+		padding-right: 10px;
+		bottom: 40px;
+	}
+}
+
+.relax-campaign-container .banner-card.has-ctas .banner-card-ctas {
+	margin-top: 18px;
+	vertical-align: top;
+	gap: 24px;
+}
+
+.relax-campaign-container .gallery {
+	padding-bottom: 0px;
+}
+
+@media only screen and (min-width: 1069px) {
+	#feature-card-modal-switch-android .image-container.save-with-trade-in-image {
+		margin-top: 72px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.feature-card-modal-tile .card .image-container.rely-icon-spacing {
+		padding-bottom: 32px;
+	}
+
+	.relax-campaign-container .banner-card.has-ctas .banner-card-ctas {
+		margin-top: 20px;
+	}
+
+	.feature-card-modal-tile .card .image-container.save-with-trade-in-image .responsive-image img {
+		margin-top: -80px;
+		position: relative;
+		z-index: -1;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.relax-campaign-container .banner-card.has-ctas .banner-card-ctas {
+		grid-gap: 15px;
+		gap: 15px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.feature-card-modal-tile .card .image-container.save-with-trade-in-image .responsive-image img {
+		margin-top: 0;
+		position: relative;
+	}
+
+	.relax-campaign-container .typography-section-headline.relax-campaign-headline {
+		font-size: 32px;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.feature-card-modal-tile.tile-horizontal-layout.image-first.phone-to-rely-card .card-viewport-content .image-container {
+		margin-inline-start: 60px;
+	}
+
+	.feature-card-modal-tile.tile-horizontal-layout.image-first.phone-to-rely-card .card-viewport-content .feature-card-modal-content {
+		padding-inline-end: 146px;
+	}
+}
+
+.modal.ac-modal-video.modal-open .ac-video-player[data-analytics-video-id="film-iphone-relax"]::after {
+	content: "Footage courtesy: The Board of Control for Cricket in India.";
+	display: block;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	z-index: 99;
+	text-align: center;
+	bottom: 0;
+	background: rgba(22, 22, 23, 0.5);
+	padding: 6px 20px;
+	box-sizing: border-box;
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	color: #fff;
+	font-size: 15px;
+	-webkit-animation: hideDisclaimer 1.5s ease-out 2.5ss forwards;
+	animation: hideDisclaimer 1.5s ease-out 2.5s forwards;
+	opacity: 0;
+	transform: translateY(30px);
+}
+@media only screen and (max-width: 734px) {
+	.modal.ac-modal-video.modal-open .ac-video-player[data-analytics-video-id="film-iphone-relax"]::after {
+		font-size: 13px;
+	}
+}
+.durability-campaign-tile .gallery .card-set .card {
+	height: 0;
+}
+
+@keyframes hideDisclaimer {
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+
+	10% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	90% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+}
+
+@-webkit-keyframes hideDisclaimer {
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+
+	10% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	90% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.feature-card-modal-tile.tile-horizontal-layout .card-viewport-content .feature-card-modal-content.last-standing-copy-block-spacing {
+		padding-inline-start: 111px;
+	}
+}
+
+.relax-campaign-container .banner-card .banner-card-active-area {
+	position: initial;
+}
+
+@media only screen and (min-width: 1069px) {
+	.relax-campaign-container .banner-card-1-up {
+		--height: 680px;
+		height: var(--height);
+	}
+}
+
+.durability-campaign-tile .gallery .scroll-container {
+	overflow-x: visible;
+}
+
+.feature-card-modal-tile .card .image-container.move-top-ios-image-container {
+	margin-top: 72px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.feature-card-modal-tile .card .image-container.move-top-ios-image-container {
+		margin-top: 52px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.feature-card-modal-tile .card .image-container.move-top-ios-image-container {
+		margin-top: 42px;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.feature-card-modal-tile.feature-card-modal-tile.tile-horizontal-layout.image-first .card-viewport-content {
+		min-height: 620px;
+	}
+}
+@media only screen and (min-width: 1069px) and (max-width: 1169px) {
+	.feature-card-modal-tile.tile-horizontal-layout.image-first.phone-to-rely-card .card-viewport-content .feature-card-modal-content {
+		padding-inline-end: 56px;
+	}
+}
+.relax-campaign-container .icon.no-left-spacing:after {
+	padding-left: 0px;
+}
+.feature-card.durability-learn-more-modal {
+	transition: none;
+}

@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    top: 0;
+}
+#navbar{
+    background-color:rgb(243, 243, 243);
+    padding: 3px 0px;
+    font-size: large;
+    position: sticky;
+    top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serife;
+    
+}
+#navbar .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#navbar .header .nav-left{
+    width: 2.1%;
+    padding-right: 6px;
+}
+#navbar .header .nav-left img{
+    width: 100%;
+}
+#navbar .header .nav-mid ul{
+    display: flex;
+    list-style: none; 
+    gap: 5px;
+}
+.nav-mid ul li{
+    padding-left: 40px;
+   
+}
+.nav-mid ul li:first-child {
+    padding-left: 5px;
+}
+#navbar .header .nav-mid ul li{
+    justify-content: space-between;
+}
+#navbar .header .nav-mid ul i{
+    margin-left: 30px;
+    font-size: medium;
+    padding-top: 5px;
+}
+#navbar .header .nav-mid ul li a{
+    color:rgb(76, 67, 67);
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+#navbar .header .nav-mid li{
+    color:rgb(125, 14, 14);
+}
+#header_bottom p{
+    text-align: center;
+    color:rgb(44, 36, 36);
+    background-color:white;
+    font-size: 14px;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#header_bottom p a{
+    color: rgb(18, 95, 158);
+    text-decoration: none;
+}
+#spotlight .spotvideo video{
+    height: 89vh;
+    width: 100%;
+    object-fit: cover;
+}
+#spotlight .spot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#spotlight .spottext{
+    font-weight: bold;
+    position: absolute;
+    bottom: 140px;
+    color: white;
+}
+#spotlight{
+    position: relative;
+}
+
+#spotlight .spot .spottext h2{
+
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+#spotlight .spottext p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* #spotlight .spottext button{
+    transform: translateX(200%);
+    background-color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: large;
+} */
+
+#spotframe{
+    position: relative;
+
+}
+#spotframe .imgframe img{
+    height: 78vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+#spotframe  .imgtext  {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(29, 27, 27);
+    top: 50px;
+    width: 100%;
+
+}
+#spotframe .imgtext p{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#spotframe .imgtext span{
+    font-size: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#spotframe .imgtext .spotspace{
+    margin-top: 20px;
+}
+#spotframe .imgtext .button1 {
+    background-color: rgb(34, 141, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: larger;
+
+}
+#spotframe .imgtext .button2{
+    
+    color: rgb(34, 141, 255);
+    border-radius: 30px;
+    border:1px solid rgb(34, 141, 255);;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: larger;
+    margin-left: 15px;
+    margin-top: 400px;
+}
+#container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px;
+    padding: 10px 10px;
+    background-color: white;
+   
+}
+#products{
+    display: flex;
+    
+    justify-content: space-around;
+    width: 50%;
+   
+}
+#products .imgproducts{
+    position: relative;
+    width: 100%;   
+}
+
+#products .imgproducts img {
+    width: 100%;
+    object-fit: cover;
+    height: 72.5vh;
+}
+
+#products .productstext .productsbutton{
+    margin-top: 20px;
+}
+#products .productstext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    margin-top: 50px;   
+    margin-left: 0px;
+    font-size: large;
+    
+}
+#products .productstext p{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#products .productstext span{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#products .productstext .button3{
+    background-color: rgb(34, 141, 255);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+    margin-top: 260px;
+}
+#products .productstext .button4{
+    color: rgb(34, 141, 255);
+    border-radius: 30px;
+    border:1px solid rgb(34, 141, 255);;
+    background-color: white;
+    padding: 6px 15px;
+    font-size: large;
+    margin-left: 10px; 
+
+}
+
+#macbook{
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+    width: 50%;
+   
+
+}
+
+#macbook .macimg{
+    position: relative;
+    width: 100%;
+  
+
+}
+#macbook .macimg img{
+    width: 100%;
+    height: 72.5vh;
+    
+   
+}
+
+#macbook  .mactext {
+    position: absolute;
+    top: 0;
+}
+#macbook .mactext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+#macbook .mactext p{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 320px;
+   
+}
+#macbook .mactext span{
+    font-size: 25px;
+    
+   
+}
+#macbook .mactext .macbutton{
+    margin-top: 20px;
+}
+#macbook .mactext .buttona{
+    background-color: rgb(20, 21, 21);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+}
+#macbook .mactext .buttonb{
+    color: rgb(34, 141, 255);
+    border-radius: 30px;
+    border:1px solid rgb(34, 141, 255);;
+    background-color: white;
+    padding: 6px 15px;
+    font-size: large;
+    margin-left: 10px;   
+
+}
+#container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px;
+    padding: 10px 10px;
+  
+    background-color:white; 
+}
+#iwatch{
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+    width: 50%;
+   
+}
+#iwatch .imgiwatch{
+    position: relative;
+    width: 100%;   
+   
+}
+
+#iwatch .imgiwatch img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+#iwatch .iwatchtext {
+    position: absolute;
+}
+#iwatch .iwatchtext .iwatchbutton{
+    margin-top: 20px;
+}
+#iwatch .iwatchtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+    margin-left: 0px;
+    font-size: large;
+    padding-top: 50px;
+    
+}
+#iwatch .iwatchtext img{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 125%;
+}
+#iwatch .iwatchtext span{
+    font-size: 25px;
+    font-weight:200 ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+#iwatch .iwatchtext .buttoni1{
+    background-color: rgb(34, 141, 255);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+}
+#iwatch .iwatchtext .buttoni2{
+    color: rgb(34, 141, 255);
+    border-radius: 30px;
+    border:1px solid rgb(34, 141, 255);;
+    background-color: white;
+    padding: 6px 15px;
+    font-size: large;
+    margin-left: 10px; 
+    margin-top: 300px;
+
+}
+
+#ipad{
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+    width: 50%;
+   
+
+}
+
+#ipad .ipadimg{
+    position: relative;
+    width: 100%;
+  
+
+}
+#ipad .ipadimg img{
+    width: 100%;
+    /* height: 72.6vh; */
+    object-fit: cover;
+    height: 70vh;
+   
+}
+
+#ipad  .ipadtext {
+    position: absolute;
+    top: 0;
+}
+#ipad .ipadtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+
+    width: 100%;
+}
+#ipad .ipadtext p{
+    font-size: 35px;
+    font-weight: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+#ipad .ipadtext span{
+    font-size: 25px;
+    
+   
+}
+#ipad .ipadtext .ipadbutton{
+    margin-top: 20px;
+}
+#ipad .ipadtext .buttonia{
+    background-color: rgb(11, 11, 11);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+    margin-top: 300PX;
+    margin-left:0px;
+}
+#ipad .ipadtext .buttonib{
+    color: rgb(34, 141, 255);
+    border-radius: 30px;
+    border:1px solid rgb(34, 141, 255);;
+    background-color: white;
+    padding: 6px 15px;
+    font-size: large;
+    margin-left: 10px;   
+
+}
+#container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px;
+    padding: 10px 10px;
+  
+    ; 
+}
+#airpod{
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+    width: 50%;
+   
+}
+#airpod .imgairpod{
+    position: relative;
+    width: 100%;   
+}
+
+#airpod .imgairpod img{
+    width: 200%;
+    height: 100%;
+   
+
+}
+
+#airpod .airpodtext {
+    position: absolute;
+}
+#airpod .airpodtext .airpodbutton{
+    margin-top: 20px;
+}
+#airpod .airpodtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+    margin-left: 0px;
+    font-size: large;
+    padding-top: 330px;
+    padding-left: 480PX;
+    
+}
+#airpod .airpodtext p{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+}
+#airpod .airpodtext span{
+    font-size: 25px;
+}
+#airpod .airpodtext .buttona1{
+    background-color: rgb(34, 141, 255);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+}
+#airpod .airpodtext .buttona2{
+    color: rgb(34, 141, 255);
+    border-radius: 30px;
+    border:1px solid rgb(34, 141, 255);;
+    background-color: white;
+    padding: 6px 15px;
+    font-size: large;
+    margin-left: 10px; 
+
+}
+
+#iphone{
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+    width: 50%;
+   
+
+}
+
+#iphone .iphoneimg{
+    position: relative;
+    width: 100%;
+  
+
+}
+#iphone .iphoneimg img{
+    width: 100%;
+    
+    
+    object-fit: cover;
+   
+}
+
+#iphone  .iphonetext {
+    position: absolute;
+    top: 0;
+}
+#iphone .iphonetext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+#iphone .iphonetext img{
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+#iphone .iphonetext span{
+    font-size: 25px;
+        
+   
+}
+
+    #iphone. .iphonetext .buttonp{
+        background-color: rgb(34, 141, 255);
+        border: none;
+        padding: 6px 15px;
+        border-radius: 30px;
+        color: white;
+        font-size: large; 
+    }
+
+#iphone .iphonetext .iphonebutton{
+    margin-top: 20px;
+}
+#iphone .iphonetext .buttonpa{
+    background-color: rgb(34, 141, 255);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: large;
+}
+#iphone .iphonetext .buttonpb{
+    color: rgb(34, 141, 255);
+    border-radius: 30px;
+    border:1px solid rgb(34, 141, 255);;
+    background-color: white;
+    padding: 6px 15px;
+    font-size: large;
+    margin-left: 10px;   
+
+}
+footer {
+    background-color: rgb(228, 226, 226);
+    padding: 20px 0px;
+}
+footer .wrapper {
+    padding: 20px 0px;
+    color: rgb(90, 89, 89);
+}
+footer .wrapper .footer-top p{
+    padding: 10px 0px;
+    font-size: small;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+.footerbottom li{
+   list-style: none;
+   font-size: small;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.footerbottom li a{
+    text-decoration: none;
+    color: rgb(90, 89, 89);;
+    
+}
+footer .wrapper .footerbottom{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}
+footer .wrapper .footerbottom h4{
+    padding: 5px 0px;
+    font-weight: 300;
+}
+@media(max-width:1280px){
+    #container {
+        display: flex;
+        justify-content: space-around; 
+        gap: 10px;
+        padding: 10px 10px;
+        background-color: white;
+       
+    }
+    #spotframe .imgframe  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+    }
+}
+@media(max-width :1080px){
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+}@media(max-width:980px){
+    .nav-mid .li{
+        display: none;
+    }
+    .footerbottom {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    #macbook .mactext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: none;
+    }
+}

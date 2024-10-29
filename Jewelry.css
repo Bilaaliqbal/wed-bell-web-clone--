@@ -1,0 +1,145 @@
+#lime-light{
+    padding-top: 77.16px;
+    padding-bottom: 100px;
+}
+#lime-light .wrapper .light-head{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 18px;
+}
+#lime-light .wrapper .light-head .rectangle {
+    height: 30px;
+    width: 6px;
+    border-radius: 10px;
+    background-color: #8A33FD;
+}
+#lime-light .wrapper .light-head .light-head-text{
+    font-size:34px ;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing:2% ;
+    line-height: 33.5px;
+    color:#3C4242 ;
+    width: 394px;
+}
+#lime-light .wrapper .light-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    padding-top: 50px;
+}
+
+
+.wrapper .light-content .light-image{
+    background-image: url(newpic/1.jpg);
+    width: 282px;
+    height: 370px;
+    border-radius: 12px ;
+    overflow: hidden;
+    background-size: cover;
+}
+.wrapper .light-content .light-image1{
+    background-image: url(newpic/2.jpg);
+    width: 282px;
+    height: 370px;
+    border-radius: 12px ;
+    overflow: hidden;
+    background-size: cover;
+}
+.light-content .light-image1 .span{
+    padding-left: 228.95px;
+    padding-top: 26.73px;
+}
+
+.wrapper .light-content .light-image2{
+    background-image: url(newpic/8.jpg);
+    width: 282px;
+    height: 370px;
+    border-radius: 12px ;
+    overflow: hidden;
+    background-size: cover;
+}
+.light-content .light-image2 .span{
+    padding-left: 228.95px;
+    padding-top: 26.73px;
+}
+
+.wrapper .light-content .light-image3{
+    background-image: url(newpic/12.jpg);
+    width: 282px;
+    height: 370px;
+    border-radius: 12px ;
+    overflow: hidden;
+    background-size: cover;
+    
+
+}
+.light-content .light-image3 .span{
+    padding-left: 228.95px;
+    padding-top: 26.73px;
+}
+
+.light-content .light-image .span{
+    padding-left: 228.95px;
+    padding-top: 26.73px;
+}
+
+.light-content .light-image .image-whitespace img{
+    display: block;
+    width: 100%;
+    
+}
+.wrapper .light-content .image-text-arrow{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+.wrapper .light-content .image-text-arrow .light-arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .light-content .image-text-arrow .light-arrow img{
+    display: block;
+    width: 100%;
+}
+.wrapper .light-content .image-text-arrow .rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.light-content .image-text-arrow .rate .number{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: center;
+    color:  #3C4242;
+    padding: 10px 17.92px;
+    background-color:  #F6F6F6;
+    border-radius: 8px;
+
+}
+ .light-content .image-text-arrow .image-text .image-text1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: left;
+    color: #3C4242;
+
+
+}
+ .light-content .image-text-arrow .image-text .explore{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: left;
+    color: #807D7E;
+    font-family: sans-serif;;
+}

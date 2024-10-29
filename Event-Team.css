@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.event-intro {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6f2ff;
+}
+
+.event-intro h1 {
+    font-size: 2em;
+    color: #336699;
+}
+
+.team-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.team-gallery article {
+    text-align: center;
+    width: 45%;
+}
+
+.team-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+

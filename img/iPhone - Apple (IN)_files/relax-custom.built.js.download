@@ -1,0 +1,47 @@
+var ua = navigator.userAgent.toLowerCase();
+	    var isAndroid = ua.indexOf("android") > -1;
+	    //&& ua.indexOf("mobile");
+
+	    if (isAndroid) {
+	        document.querySelector('.switch-from-android-item').style.display = 'block';
+	    } else {
+	        document.querySelector('.switch-from-android-item').remove();
+	    }
+
+	    var hasHash = false;
+	    var sectionEl = null;
+
+	    if (window.location.hash) {
+	        hasHash = true;
+	    }
+
+	    var resize_ob = new ResizeObserver(function(entries) {
+	        sectionEl.scrollIntoView();
+	        showPageContent();
+	    }
+	    );
+
+	    var showPageContent = function() {
+	        document.body.style.opacity = 1;
+	    }
+
+	    window.addEventListener("load", (event)=>{
+	        // checks if hash points to valid section id
+	        if (window.location.hash) {
+	        	let getHash = window.location.hash.substr(1),
+				splitHash = getHash.split('?');
+
+	            sectionEl = document.querySelector("#"+splitHash[0])
+	            resize_ob.observe(document.documentElement);
+
+	            // stop observing for height change after 3 second
+	            setTimeout(()=>{
+	                resize_ob.unobserve(document.documentElement);
+	            }
+	            , 3000);
+	        } else {
+	            showPageContent();
+	        }
+	    }
+	    );
+	

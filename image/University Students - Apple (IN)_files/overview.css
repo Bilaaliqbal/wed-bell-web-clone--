@@ -1,0 +1,1547 @@
+.section-ways-to-save .tile-pay-over-time .tile-media.removed-space{
+    margin-block-end: auto;
+}
+.section-mac-and-ipad, .section-why-mac-and-ipad {
+    background:#000
+}
+.section-why-mac-and-ipad .section-headline, .section-mac-and-ipad .section-headline {
+    color: #fff;
+}
+.overview-boc-durability-updates.center{
+    margin:0 auto;
+}
+.section-hero {
+    color: #fff;
+  
+   position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+    @media screen and (max-width: 1440px) and (min-width: 1069px) and (max-height: 1441000px) and (min-height: 776px) {
+        .section-hero {
+            height: 692px;
+           
+        }
+       
+    }
+    @media screen and (max-width: 1440px) and (min-width: 1069px) and (max-height: 775px) and (min-height: 0px) {
+        .section-hero {
+            height: 580px;
+           
+        }
+        
+    }
+    @media screen and (max-width: 1068px) and (min-width: 735px) and (max-height: 1441000px) and (min-height: 734px) {
+        .section-hero {
+            height: 650px;
+            
+        }
+       
+    }
+    @media screen and (max-width: 1068px) and (min-width: 735px) and (max-height: 733px) and (min-height: 0px) {
+        .section-hero {
+            height: 570px;
+            
+        }
+        
+    }
+    @media screen and (max-width: 1441000px) and (min-width: 1441px) and (max-height: 1441000px) and (min-height: 776px) {
+        .section-hero {
+            height: 692px;
+           
+        }
+     
+    }
+    @media screen and (max-width: 1441000px) and (min-width: 1441px) and (max-height: 775px) and (min-height: 0px) {
+        .section-hero {
+            height: 580px;
+           
+        }
+      
+    }
+    @media screen and (max-width: 734px) and (min-width: 0px) {
+        .section-hero {
+            height: 500px;
+           
+        }
+    
+    }
+    
+.unit-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+ .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students {
+    width: 3008px;
+    height: 580px;
+    background-size: 3008px 580px;
+    background-repeat: no-repeat;
+    background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_large.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students {
+        background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_large_2x.jpg");
+    }
+}
+
+
+@media only screen and (max-width: 1068px) {
+    .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students {
+        background-repeat: no-repeat;
+        background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_medium.jpg");
+        background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+ .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students {
+        background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students {
+        background-repeat: no-repeat;
+        background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_small.jpg");
+        background-size: cover;
+    background-position: center;
+    height: 101%;
+    width: 101%;
+    position: relative;
+    top: 0px;
+   
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+     .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students {
+        background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_small_2x.jpg");
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+   .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students{
+        width: 2808px;
+        height: 692px;
+        background-size: 2808px 692px;
+        background-repeat: no-repeat;
+        background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_xlarge.jpg");
+    }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx),
+    only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+  .unit-image-wrapper .unit-image-mac-for-students-hero-mac-for-students {
+        background-image: url("/in/education/mac/images/overview/hero__ebxx5f9ked8i_xlarge_2x.jpg");
+    }
+}
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+    .main [data-module-template="heroes"] [data-unit-id] .bottom-copy-wrapper .unit-copy-wrapper {
+        padding-bottom: 55px;
+    }
+}
+
+ .unit-image {
+    z-index: 1;
+    position: absolute;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+}
+.section-hero .section-headline {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    z-index: 4;
+    pointer-events: none;
+}
+.fade-in-tween {
+text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+}
+ .section-hero .section-headline {
+    padding-bottom: 177px;
+}
+  @media screen and (max-width: 4500px) and (max-height: 780px) {
+ .section-hero .section-headline{
+    padding-bottom: 140px;
+}
+
+ }
+  @media screen and (max-width: 1400px) and (min-width:0px) {
+  .section-hero .section-headline {
+    padding-bottom: 172px;
+}
+
+ }
+ 
+ @media screen and (max-width: 1068px) and (min-width: 0px) {
+ .section-hero .section-headline{
+    padding-bottom: 252px;
+}
+
+ }
+  @media screen and (max-width: 1068px) and (max-height: 730px) {
+ .section-hero .section-headline{
+    padding-bottom: 206px;
+}
+
+ }
+ @media screen and (max-width: 734px) and (min-width: 0px) {
+  .section-hero .section-headline {
+    padding-bottom: 150px;
+   
+}
+ }
+ @media screen and (max-width: 520px) and (min-width: 0px) {
+  .section-hero .section-headline {
+    padding-bottom: 110px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ }
+ @media screen and (max-width: 1440px) and (min-width: 1069px) and (max-height: 775px) and (min-height: 0px) {
+    .section-hero .section-headline {
+    padding-bottom: 145px;
+}
+}
+.section-hero .section-headline {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.hero-background {
+    background:#000;
+    color:#fff;
+    text-align:center
+}
+.hero-background .section-content {
+    max-width:880px;
+}
+
+
+@media only screen and (max-width: 734px) {
+
+    .typography-headline-standalone{
+        font-size:75px;
+    }
+}
+
+}
+
+.section-hero .section-intro {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 830px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-hero .section-intro {
+        padding: 140px 0;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-hero .section-intro {
+        padding:70px 25px;
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .section-hero .section-intro {
+        max-width: 620px;
+    }
+}
+.section-hero h1 {
+    color: #f5f5f7;
+    font-weight: bold;
+        
+        
+}
+
+
+@media only screen and (max-width: 1068px) {
+    .section-hero h1 {
+               
+        font-size: 48px;
+       
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero h1 {
+       
+       font-size: 40px;
+        
+    }
+}
+.section-hero .button {
+    margin-top: 48px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-hero .button {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .button {
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-hero .button {
+        font-size: 17px;
+        line-height: 1.17648;
+        font-weight: 400;
+        letter-spacing: -0.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        border-style: solid;
+        border-width: 1px;
+        min-width: 28px;
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        --sk-button-margin-horizontal: 18px;
+        --sk-button-margin-vertical: 18px;
+        width: 100%;
+        max-width: 260px;
+    }
+    .section-hero .button:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro AR Text", "SF Pro Text", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(ja) {
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(ko) {
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh) {
+        letter-spacing: 0em;
+    }
+    .section-hero .button:lang(th) {
+        font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .section-hero .button {
+        font-size: 14px;
+        line-height: 1.42859;
+        font-weight: 400;
+        letter-spacing: -0.016em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section-hero .button:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro AR Text", "SF Pro Text", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(ja) {
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(ko) {
+        line-height: 1.57143;
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh) {
+        line-height: 1.5;
+        letter-spacing: 0em;
+    }
+    .section-hero .button:lang(th) {
+        line-height: 1.35718;
+        letter-spacing: 0em;
+        font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .section-hero .button:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+.section-hero .button:hover .icon-copy {
+    text-decoration: none;
+}
+.section-hero .fade-in-tween:not(:first-child) {
+    transition-delay: 0.2s;
+}
+
+html.no-reduced-motion .fade-in-tween {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 2s;
+}
+html.no-reduced-motion .fade-in-tween.engaged {
+    opacity: 1;
+    transform: translateY(0);
+}
+.typography-headline-standalone {
+    font-size: 75px;
+    line-height: 1.04167;
+    font-weight: 600;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles {
+    padding: 100px 0;
+}
+@media only screen and (max-width: 1068px) {
+    .shared-section-styles {
+        padding: 130px 0;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .shared-section-styles {
+        padding: 100px 0;
+    }
+}
+.shared-section-styles .section-headline,
+.shared-section-styles .section-tip {
+    font-weight: 700 !important;
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(ar),
+.shared-section-styles .section-tip:lang(ar) {
+    letter-spacing: 0em;
+    font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(ja),
+.shared-section-styles .section-tip:lang(ja) {
+    line-height: 1.0875;
+    letter-spacing: 0em;
+    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(ko),
+.shared-section-styles .section-tip:lang(ko) {
+    line-height: 1.15;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(zh),
+.shared-section-styles .section-tip:lang(zh) {
+    line-height: 1.0875;
+    letter-spacing: 0em;
+}
+.shared-section-styles .section-headline:lang(th),
+.shared-section-styles .section-tip:lang(th) {
+    line-height: 1.35;
+    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(zh-CN),
+.shared-section-styles .section-tip:lang(zh-CN) {
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(zh-HK),
+.shared-section-styles .section-tip:lang(zh-HK) {
+    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(zh-MO),
+.shared-section-styles .section-tip:lang(zh-MO) {
+    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-headline:lang(zh-TW),
+.shared-section-styles .section-tip:lang(zh-TW) {
+    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+@media only screen and (max-width: 1068px) {
+    .shared-section-styles .section-headline,
+    .shared-section-styles .section-tip {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 600;
+        letter-spacing: -0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ar),
+    .shared-section-styles .section-tip:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ja),
+    .shared-section-styles .section-tip:lang(ja) {
+        line-height: 1.10938;
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ko),
+    .shared-section-styles .section-tip:lang(ko) {
+        line-height: 1.17188;
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh),
+    .shared-section-styles .section-tip:lang(zh) {
+        line-height: 1.09375;
+        letter-spacing: 0em;
+    }
+    .shared-section-styles .section-headline:lang(th),
+    .shared-section-styles .section-tip:lang(th) {
+        line-height: 1.34375;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-CN),
+    .shared-section-styles .section-tip:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-HK),
+    .shared-section-styles .section-tip:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-MO),
+    .shared-section-styles .section-tip:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-TW),
+    .shared-section-styles .section-tip:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .shared-section-styles .section-headline,
+    .shared-section-styles .section-tip {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ar),
+    .shared-section-styles .section-tip:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ja),
+    .shared-section-styles .section-tip:lang(ja) {
+        line-height: 1.14599;
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ko),
+    .shared-section-styles .section-tip:lang(ko) {
+        line-height: 1.1875;
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh),
+    .shared-section-styles .section-tip:lang(zh) {
+        letter-spacing: 0em;
+    }
+    .shared-section-styles .section-headline:lang(th),
+    .shared-section-styles .section-tip:lang(th) {
+        line-height: 1.33349;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-CN),
+    .shared-section-styles .section-tip:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-HK),
+    .shared-section-styles .section-tip:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-MO),
+    .shared-section-styles .section-tip:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-TW),
+    .shared-section-styles .section-tip:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .shared-section-styles .section-headline,
+    .shared-section-styles .section-tip {
+        font-size: 64px;
+        line-height: 1.0625;
+        font-weight: 600;
+        letter-spacing: -0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ar),
+    .shared-section-styles .section-tip:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ja),
+    .shared-section-styles .section-tip:lang(ja) {
+        line-height: 1.10938;
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ko),
+    .shared-section-styles .section-tip:lang(ko) {
+        line-height: 1.17188;
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh),
+    .shared-section-styles .section-tip:lang(zh) {
+        line-height: 1.09375;
+        letter-spacing: 0em;
+    }
+    .shared-section-styles .section-headline:lang(th),
+    .shared-section-styles .section-tip:lang(th) {
+        line-height: 1.34375;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-CN),
+    .shared-section-styles .section-tip:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-HK),
+    .shared-section-styles .section-tip:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-MO),
+    .shared-section-styles .section-tip:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-TW),
+    .shared-section-styles .section-tip:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+@media only screen and (max-width: 734px) and (max-width: 1068px) {
+    .shared-section-styles .section-headline,
+    .shared-section-styles .section-tip {
+        font-size: 48px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ar),
+    .shared-section-styles .section-tip:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ja),
+    .shared-section-styles .section-tip:lang(ja) {
+        line-height: 1.14599;
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ko),
+    .shared-section-styles .section-tip:lang(ko) {
+        line-height: 1.1875;
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh),
+    .shared-section-styles .section-tip:lang(zh) {
+        letter-spacing: 0em;
+    }
+    .shared-section-styles .section-headline:lang(th),
+    .shared-section-styles .section-tip:lang(th) {
+        line-height: 1.33349;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-CN),
+    .shared-section-styles .section-tip:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-HK),
+    .shared-section-styles .section-tip:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-MO),
+    .shared-section-styles .section-tip:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-TW),
+    .shared-section-styles .section-tip:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+@media only screen and (max-width: 734px) and (max-width: 734px) {
+    .shared-section-styles .section-headline,
+    .shared-section-styles .section-tip {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ja),
+    .shared-section-styles .section-tip:lang(ja) {
+        line-height: 1.175;
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ko),
+    .shared-section-styles .section-tip:lang(ko) {
+        line-height: 1.2;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(th),
+    .shared-section-styles .section-tip:lang(th) {
+        line-height: 1.35;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(ar),
+    .shared-section-styles .section-tip:lang(ar) {
+        font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-CN),
+    .shared-section-styles .section-tip:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-HK),
+    .shared-section-styles .section-tip:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-MO),
+    .shared-section-styles .section-tip:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-headline:lang(zh-TW),
+    .shared-section-styles .section-tip:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+.shared-section-styles .section-intro,
+.shared-section-styles .faq-header {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(ko),
+.shared-section-styles .faq-header:lang(ko) {
+    line-height: 1.25;
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(th),
+.shared-section-styles .faq-header:lang(th) {
+    line-height: 1.39286;
+    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(zh),
+.shared-section-styles .faq-header:lang(zh) {
+    line-height: 1.25;
+}
+.shared-section-styles .section-intro:lang(ar),
+.shared-section-styles .faq-header:lang(ar) {
+    font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(ja),
+.shared-section-styles .faq-header:lang(ja) {
+    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(zh-CN),
+.shared-section-styles .faq-header:lang(zh-CN) {
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(zh-HK),
+.shared-section-styles .faq-header:lang(zh-HK) {
+    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(zh-MO),
+.shared-section-styles .faq-header:lang(zh-MO) {
+    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-intro:lang(zh-TW),
+.shared-section-styles .faq-header:lang(zh-TW) {
+    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+@media only screen and (max-width: 1068px) {
+    .shared-section-styles .section-intro,
+    .shared-section-styles .faq-header {
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: 0.009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(ja),
+    .shared-section-styles .faq-header:lang(ja) {
+        line-height: 1.25;
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(ko),
+    .shared-section-styles .faq-header:lang(ko) {
+        line-height: 1.29167;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(th),
+    .shared-section-styles .faq-header:lang(th) {
+        line-height: 1.375;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh),
+    .shared-section-styles .faq-header:lang(zh) {
+        line-height: 1.29167;
+    }
+    .shared-section-styles .section-intro:lang(ar),
+    .shared-section-styles .faq-header:lang(ar) {
+        font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-CN),
+    .shared-section-styles .faq-header:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-HK),
+    .shared-section-styles .faq-header:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-MO),
+    .shared-section-styles .faq-header:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-TW),
+    .shared-section-styles .faq-header:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .shared-section-styles .section-intro,
+    .shared-section-styles .faq-header {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: 0.011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(ja),
+    .shared-section-styles .faq-header:lang(ja) {
+        line-height: 1.2381;
+        font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(ko),
+    .shared-section-styles .faq-header:lang(ko) {
+        line-height: 1.2858;
+        font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(th),
+    .shared-section-styles .faq-header:lang(th) {
+        line-height: 1.381;
+        font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh),
+    .shared-section-styles .faq-header:lang(zh) {
+        line-height: 1.3334;
+    }
+    .shared-section-styles .section-intro:lang(ar),
+    .shared-section-styles .faq-header:lang(ar) {
+        font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-CN),
+    .shared-section-styles .faq-header:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-HK),
+    .shared-section-styles .faq-header:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-MO),
+    .shared-section-styles .faq-header:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-intro:lang(zh-TW),
+    .shared-section-styles .faq-header:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+.shared-section-styles .section-copy {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(ja) {
+    line-height: 1.26316;
+    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(ko) {
+    line-height: 1.31579;
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(th) {
+    line-height: 1.36844;
+    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(zh) {
+    line-height: 1.36844;
+}
+.shared-section-styles .section-copy:lang(ar) {
+    font-family: "SF Pro AR", "SF Pro AR Display", "SF Pro Display", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(zh-CN) {
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(zh-HK) {
+    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(zh-MO) {
+    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-copy:lang(zh-TW) {
+    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+@media only screen and (max-width: 734px) {
+    .shared-section-styles .section-copy {
+        font-size: 17px;
+        line-height: 1.23536;
+        font-weight: 400;
+        letter-spacing: -0.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 600;
+    }
+    .shared-section-styles .section-copy:lang(ar) {
+        letter-spacing: 0em;
+        font-family: "SF Pro AR", "SF Pro AR Text", "SF Pro Text", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-copy:lang(ja) {
+        letter-spacing: 0em;
+        font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-copy:lang(ko) {
+        line-height: 1.35296;
+        letter-spacing: 0em;
+        font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-copy:lang(zh) {
+        line-height: 1.35296;
+        letter-spacing: 0em;
+    }
+    .shared-section-styles .section-copy:lang(th) {
+        line-height: 1.35296;
+        letter-spacing: 0em;
+        font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-copy:lang(zh-CN) {
+        font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-copy:lang(zh-HK) {
+        font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-copy:lang(zh-MO) {
+        font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .shared-section-styles .section-copy:lang(zh-TW) {
+        font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+.shared-section-styles .cta {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+}
+.shared-section-styles .cta:lang(ar) {
+    letter-spacing: 0em;
+    font-family: "SF Pro AR", "SF Pro AR Text", "SF Pro Text", "SF Pro Gulf", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .cta:lang(ja) {
+    letter-spacing: 0em;
+    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .cta:lang(ko) {
+    line-height: 1.58824;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .cta:lang(zh) {
+    letter-spacing: 0em;
+}
+.shared-section-styles .cta:lang(th) {
+    line-height: 1.35296;
+    letter-spacing: 0em;
+    font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .cta:lang(zh-CN) {
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .cta:lang(zh-HK) {
+    font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .cta:lang(zh-MO) {
+    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .cta:lang(zh-TW) {
+    font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.shared-section-styles .section-ctas .cta:not(:first-child) {
+    margin-top: 0.2em;
+}
+@media only screen and (max-width: 1068px) {
+    .shared-section-styles .section-ctas .cta:not(:first-child) {
+        margin-top: 0.4em;
+    }
+}
+.shared-section-styles .right-align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.shared-section-styles .block {
+    margin-top: 0;
+    position: relative;
+}
+.typography-students-intro {
+
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.ribbon {
+    --ribbon-link-inline-color: inherit;
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --ribbon-link-color: rgb(0, 102, 204);
+    --ribbon-focus-color: #0071E3;
+    --ribbon-text-color: rgb(29, 29, 31);
+    --ribbon-background-color: rgb(245, 245, 247);
+    --ribbon-content-padding-top: 12px;
+    --ribbon-content-padding-bottom: var(--ribbon-content-padding-top);
+    --ribbon-content-width: 83.33333%;
+    --ribbon-content-minimum-width: 320px;
+    width: var(--ribbon-width);
+    padding-top: var(--ribbon-padding-top);
+    padding-bottom: var(--ribbon-padding-bottom)
+}
+
+
+.ribbon-content-wrapper {
+    text-align: center
+}
+.ribbon.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    border-bottom: 1px solid #ccc;
+}
+.ribbon-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--ribbon-content-width);
+    min-width: var(--ribbon-content-minimum-width)
+}
+
+.ribbon-link {
+    white-space: nowrap
+}
+
+.ribbon-link:focus {
+    outline: 2px solid var(--sk-focus-color, #0071E3);
+    outline-offset: var(--sk-focus-offset, 1px)
+}
+
+.ribbon-link-inline {
+    color: var(--ribbon-link-inline-color)
+}
+
+.ribbon-link-inline,
+.ribbon-link-inline:link {
+    text-decoration: underline
+}
+
+.ribbon:lang(ar) {
+    letter-spacing: 0em;
+    font-family: SF Pro AR, SF Pro AR Text, SF Pro Text, SF Pro Gulf, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon:lang(ja) {
+    line-height: 1.4;
+    letter-spacing: 0em;
+    font-family: SF Pro JP, SF Pro Text, SF Pro Icons, Hiragino Kaku Gothic Pro, ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3, ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon:lang(ko) {
+    line-height: 1.5714285714;
+    letter-spacing: 0em;
+    font-family: SF Pro KR, SF Pro Text, SF Pro Icons, Apple Gothic, HY Gulim, MalgunGothic, HY Dotum, Lexi Gulim, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon:lang(zh) {
+    line-height: 1.5;
+    letter-spacing: 0em
+}
+
+.ribbon:lang(th) {
+    line-height: 1.3571828571;
+    letter-spacing: 0em;
+    font-family: SF Pro TH, SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon:lang(zh-CN) {
+    font-family: SF Pro SC, SF Pro Text, SF Pro Icons, PingFang SC, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon:lang(zh-HK) {
+    font-family: SF Pro HK, SF Pro Text, SF Pro Icons, PingFang HK, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon:lang(zh-MO) {
+    font-family: SF Pro HK, SF Pro TC, SF Pro Text, SF Pro Icons, PingFang HK, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon:lang(zh-TW) {
+    font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-content-wrapper {
+    background-color: var(--ribbon-background-color);
+    -webkit-backdrop-filter: blur(var(--ribbon-background-blur));
+    backdrop-filter: blur(var(--ribbon-background-blur));
+    padding-top: var(--ribbon-content-padding-top);
+    padding-bottom: var(--ribbon-content-padding-bottom);
+    border-radius: var(--ribbon-border-radius)
+}
+
+.ribbon-content {
+    color: var(--ribbon-text-color)
+}
+
+.ribbon-link {
+    color: var(--ribbon-link-color)
+}
+
+.ribbon-link:focus {
+    outline-color: var(--ribbon-focus-color)
+}
+
+.ribbon-elevated {
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --ribbon-content-padding-top: 24px
+}
+
+.ribbon-elevated:lang(ar) {
+    letter-spacing: 0em;
+    font-family: SF Pro AR, SF Pro AR Text, SF Pro Text, SF Pro Gulf, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated:lang(ja) {
+    line-height: 1.3529611765;
+    letter-spacing: 0em;
+    font-family: SF Pro JP, SF Pro Text, SF Pro Icons, Hiragino Kaku Gothic Pro, ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3, ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated:lang(ko) {
+    line-height: 1.5882352941;
+    letter-spacing: 0em;
+    font-family: SF Pro KR, SF Pro Text, SF Pro Icons, Apple Gothic, HY Gulim, MalgunGothic, HY Dotum, Lexi Gulim, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated:lang(zh) {
+    letter-spacing: 0em
+}
+
+.ribbon-elevated:lang(th) {
+    line-height: 1.3529611765;
+    letter-spacing: 0em;
+    font-family: SF Pro TH, SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated:lang(zh-CN) {
+    font-family: SF Pro SC, SF Pro Text, SF Pro Icons, PingFang SC, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated:lang(zh-HK) {
+    font-family: SF Pro HK, SF Pro Text, SF Pro Icons, PingFang HK, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated:lang(zh-MO) {
+    font-family: SF Pro HK, SF Pro TC, SF Pro Text, SF Pro Icons, PingFang HK, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated:lang(zh-TW) {
+    font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.ribbon-elevated.ribbon-inset {
+    --ribbon-border-radius: 12px
+}
+
+.ribbon-blue {
+    --ribbon-background-color: rgb(0, 113, 227);
+    --ribbon-text-color: rgb(255, 255, 255);
+    --ribbon-link-color: rgb(255, 255, 255);
+    --ribbon-focus-color: rgb(0, 0, 0)
+}
+
+.ribbon-variant-neutral-alpha {
+    --ribbon-background-color: rgba(245, 245, 247, 0.8)
+}
+
+.ribbon-variant-neutral-alt {
+    --ribbon-background-color: rgb(255, 255, 255)
+}
+
+.ribbon-blue-to-default {
+    --ribbon-background-color: rgb(245, 245, 247);
+    --ribbon-background-color-initial: rgb(0, 113, 227);
+    --ribbon-text-color: rgb(29, 29, 31);
+    --ribbon-text-color-initial: rgb(255, 255, 255);
+    --ribbon-link-color: rgb(0, 102, 204);
+    --ribbon-link-color-initial: rgb(255, 255, 255)
+}
+
+@keyframes ribbon-animate-background {
+    0% {
+        background-color: var(--ribbon-background-color-initial)
+    }
+
+    to {
+        background-color: var(--ribbon-background-color)
+    }
+}
+
+.ribbon-animate-color .ribbon-content-wrapper {
+    background-color: var(--ribbon-background-color-initial);
+    animation: ribbon-animate-background .8s ease-in-out 1.6s forwards
+}
+
+@media(prefers-reduced-motion) {
+    .ribbon-animate-color .ribbon-content-wrapper {
+        background-color: var(--ribbon-background-color);
+        animation: none
+    }
+}
+
+@keyframes ribbon-animate-text-color {
+    0% {
+        color: var(--ribbon-text-color-initial)
+    }
+
+    to {
+        color: var(--ribbon-text-color)
+    }
+}
+
+.ribbon-animate-color .ribbon-content {
+    color: var(--ribbon-text-color-initial);
+    animation: ribbon-animate-text-color .8s ease-in-out 1.6s forwards
+}
+
+@media(prefers-reduced-motion) {
+    .ribbon-animate-color .ribbon-content {
+        color: var(--ribbon-text-color);
+        animation: none
+    }
+}
+
+@keyframes ribbon-animate-link-color {
+    0% {
+        color: var(--ribbon-link-color-initial)
+    }
+
+    to {
+        color: var(--ribbon-link-color)
+    }
+}
+
+.ribbon-animate-color .ribbon-link {
+    color: var(--ribbon-link-color-initial);
+    animation: ribbon-animate-link-color .8s ease-in-out 1.6s forwards
+}
+
+@media(prefers-reduced-motion) {
+    .ribbon-animate-color .ribbon-link {
+        color: var(--ribbon-link-color);
+        animation: none
+    }
+}
+
+.ribbon-drop-wrapper {
+    /* animation: ribbon-drop .8s ease-in-out forwards */
+}
+
+@media(prefers-reduced-motion) {
+    .ribbon-drop-wrapper {
+        animation: none
+    }
+}
+
+.ribbon-inset {
+    --ribbon-width: 83.33333%;
+    --ribbon-padding-top: 16px;
+    --ribbon-border-radius: 10px;
+    margin: 0 auto
+}
+
+.ribbon-inset .ribbon-content {
+    width: var(--ribbon-width)
+}
+
+@media only screen and (max-width:734px) {
+    .ribbon-inset {
+        --ribbon-width: 87.5%
+    }
+
+    .ribbon-inset .ribbon-content {
+        min-width: var(--ribbon-width)
+    }
+}
+
+.ribbon-blur {
+    --ribbon-background-blur: 20px
+}
+
+.theme-dark.ribbon,
+.theme-dark .ribbon {
+    --ribbon-text-color: rgb(245, 245, 247);
+    --ribbon-background-color: rgb(29, 29, 31);
+    --ribbon-link-color: rgb(41, 151, 255);
+    --ribbon-focus-color: utilities.$ribbon-focus-color
+}
+
+.theme-dark.ribbon-blue,
+.theme-dark .ribbon-blue {
+    --ribbon-background-color: rgb(0, 113, 227);
+    --ribbon-text-color: rgb(255, 255, 255);
+    --ribbon-link-color: rgb(255, 255, 255);
+    --ribbon-focus-color: rgb(0, 0, 0)
+}
+
+.theme-dark.ribbon-variant-neutral-alpha,
+.theme-dark .ribbon-variant-neutral-alpha {
+    --ribbon-background-color: rgba(29, 29, 31, 0.8)
+}
+
+.theme-dark.ribbon-variant-neutral-alt,
+.theme-dark .ribbon-variant-neutral-alt {
+    --ribbon-background-color: rgb(0, 0, 0)
+}
+
+.theme-dark.ribbon-blue-to-default,
+.theme-dark .ribbon-blue-to-default {
+    --ribbon-background-color: rgb(29, 29, 31);
+    --ribbon-text-color: rgb(245, 245, 247);
+    --ribbon-link-color: rgb(41, 151, 255)
+}
+
+@keyframes ribbon-drop {
+    0% {
+        transform: translateY(-100%)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+.theme-light.ribbon,
+.theme-light .ribbon {
+    --ribbon-text-color: rgb(29, 29, 31);
+    --ribbon-background-color: rgb(245, 245, 247);
+    --ribbon-link-color: rgb(0, 102, 204);
+    --ribbon-focus-color: utilities.$ribbon-focus-color
+}
+
+.theme-light.ribbon-blue,
+.theme-light .ribbon-blue {
+    --ribbon-background-color: rgb(0, 113, 227);
+    --ribbon-text-color: rgb(255, 255, 255);
+    --ribbon-link-color: rgb(255, 255, 255);
+    --ribbon-focus-color: rgb(0, 0, 0)
+}
+
+.theme-light.ribbon-variant-neutral-alpha,
+.theme-light .ribbon-variant-neutral-alpha {
+    --ribbon-background-color: rgba(245, 245, 247, 0.8)
+}
+
+.theme-light.ribbon-variant-neutral-alt,
+.theme-light .ribbon-variant-neutral-alt {
+    --ribbon-background-color: rgb(255, 255, 255)
+}
+
+.theme-light.ribbon-blue-to-default,
+.theme-light .ribbon-blue-to-default {
+    --ribbon-background-color: rgb(245, 245, 247);
+    --ribbon-text-color: rgb(29, 29, 31);
+    --ribbon-link-color: rgb(0, 102, 204)
+}
+@media only screen and (max-width: 734px) {
+  
+    .typography-headline-standalone{
+        font-size:40px;
+    }
+}
+.modal-gallery .tile .overview-boc-battery-lifestylee.modal-image img {
+    
+   margin-block-end: 75px;
+}
+@media only screen and (max-width: 734px) {
+    .modal-gallery .tile .overview-boc-battery-lifestylee.modal-image img {
+        width: 100%;
+        height: auto;
+         margin-block-end: 40px;
+    }
+}
+.section-header-has-link {
+    justify-content: space-between;
+}
+.section-header-has-link .section-header-copy-container {
+    margin-top: 1.6em;
+}
+@media only screen and (max-width: 1068px) { 
+    .section-header-has-link .section-header-copy-container {
+        margin-top: 1em;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-header-has-link .section-header-copy-container {
+        margin-top: 0.6em;
+    }
+}
+
+
+@media only screen and (max-width: 734px) {
+    .overview-bento-pencil.privacytile {
+       
+        margin-top: -50px;
+    }
+    .typography-students-intro {
+        font-size:21px;
+    }
+    .modal-gallery .tile.privacy picture img {
+    object-fit: unset;
+    }
+
+}
+.image-center-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+   .section.no-pad {
+        padding-block-start: 0px;
+    }
+    .img-padd{
+        padding-bottom: 64px;
+    }
+    @media only screen and (max-width: 1024px) {
+    .overview-boc-pencil-ipad.pri {
+      
+        --p-height: 460px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .overview-boc-pencil-ipad.pri {
+        --p-width: 409px;
+        --p-height: 432px;
+    }
+}
+.typography-eyebrow-elevated.dark{
+    color:#000
+}
+#ac-localnav .ac-ln-background:after{
+    display:none
+}
+@media only screen and (max-width: 734px) {
+    .section-header-has-link .section-header-copy-container {
+        
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .overview-wts-mac-ipad.mp {
+        --p-width: 239px;
+        
+    }
+ .fix-md img{
+    	height:550px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .overview-wts-mac-ipad.mp {
+        --p-width: 219px;
+        --p-height: 148px;
+    }
+     .fix-md img{
+    	height:unset;
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .typography-section-headline {
+       
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .typography-section-headline {
+       
+        padding-right: unset;
+    }
+}
